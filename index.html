@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Mi Portafolio</div>
+        <div>
+            <a href="#inicio">Inicio</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contact">Contacto</a>
+            
+            
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="presentacion">
+        <div class="contenedor-presentacion">
+            <!-- Contenido de texto -->
+            <div class="texto-presentacion">
+                <h1>¡Hola! Soy Sebastián Romero Poma</h1>
+                <p>
+                    Soy un apasionado del desarrollo web y la tecnología. A lo largo de mi trayectoria, he trabajado en diversos proyectos 
+                    que combinan creatividad y funcionalidad, ayudando a empresas a destacar en el mundo digital. Mi objetivo es seguir 
+                    aprendiendo y creciendo en este apasionante camino.
+                </p>
+              
+                <section id="habilidades">
+        
+                    <h2>Mis Habilidades y Conocimientos</h2>
+                    <div class="contenedor-habilidades">
+                        <div class="habilidades-blandas">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>🌟 Trabajo en equipo</li>
+                                <li>🧩 Resolución de problemas</li>
+                                <li>💬 Comunicación efectiva</li>
+                                <li>🔄 Adaptabilidad</li>
+                                <li>⏳ Gestión del tiempo</li>
+                            </ul>
+                        </div>
+                        <div class="conocimientos-tecnicos">
+                            <h3>Conocimientos Técnicos</h3>
+                            <ul>
+                                <li>💻 GitHub: Gestión de versiones y colaboración</li>
+                                <li>🌐 WordPress: Desarrollo y personalización de sitios</li>
+                                <li>🖥️ HTML, CSS y JavaScript</li>
+                                <li>⚛️ React.js: Aplicaciones web modernas</li>
+                                <li>🎨 Diseño UX/UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            
+          
+    </section>
+   
+      
+    
+  
+    
+    <!-- lina de tiempo -->
+    <div id="certificados" class="lineat">
+    <h2>Ruta de aprendizaje</h2>
+    
+<p class="pcertificados">"Estos certificados y títulos reflejan mi compromiso con el aprendizaje continuo y mi pasión por el desarrollo tecnológico. Cada uno de ellos representa un paso en mi camino profesional y el esfuerzo por ofrecer soluciones innovadoras."</p>
+
+    <div class="timeline">2021
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/DW.png')">
+                <div class="timeline-date">Septiembre 2021</div>
+                <p> Desarrollo Web - CoderHouse</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/JS.png')">
+                <div class="timeline-date">Noviembre 2021</div>
+                <p>Java Script - CoderHouse</p>
+            </div>
+        </div>
+        <div class="timeline-item">2022
+            <div class="card" onclick="openCertificate('imagen/RJS.png')">
+                <div class="timeline-date">Marzo 2022</div>
+                <p>React Js - CoderHouse</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/UX.png')">
+                <div class="timeline-date">Agosto 2022</div>
+                <p>Diseño ux/ui - freeCodeCamp</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/CM.png')">
+                <div class="timeline-date">Dicimebre 2022</div>
+                <p>Community manager & publicidad - freeCodeCamp</p>
+            </div>
+        </div>
+        <div class="timeline-item">2023
+            <div class="card" onclick="openCertificate('imagen/AMZ.jpg')">
+                <div class="timeline-date">Octubre 2023</div>
+                <p>AWS Academy Graduate - AWS Academy Cloud Foundations</p>
+            </div>
+        </div>
+        <div class="timeline-item">2024
+            <div class="card" onclick="openCertificate('imagen/RWD.jpg')">
+                <div class="timeline-date">Octubre 2024</div>
+                <p>Responsive web Desing- freeCodeCamp</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/FTD.jpg')">
+                <div class="timeline-date">Noviembre 2024</div>
+                <p>Front End Development Libraries - freeCodeCamp</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="card" onclick="openCertificate('imagen/TSP.jpg')">
+                <div class="timeline-date">Diciembre 2024</div>
+                <p>Tecnico Superior en Programacion - Instituto tecnico superior</p>
+            </div>
+        </div>
+        
+    </div>
+</div>  
+
+ 
+<!-- proyectos -->
+<section id="proyectos" class="projects-section">
+    <h2>Mis Proyectos</h2>
+    <div class="projects-container">
+      <!-- Proyecto 1 -->
+      <div class="project-card">
+        <img src="imagen/capp.jpg" alt="App del Clima">
+        <h3>App del Clima</h3>
+        <p>Aplicación que muestra el clima actual utilizando la API de OpenWeather.</p>
+        <button onclick="location.href='https://spoma89.github.io/appclima/'" target="_blank">Ver Proyecto</button>
+      </div>
+      <!-- Proyecto 2 -->
+      <div class="project-card">
+        <img src="imagen/PDCT.jpg" alt="FCS Energía">
+        <h3>FCS Energía</h3>
+        <p>Sitio web desarrollado para una empresa de energías renovables en Salta.</p>
+        <button onclick="location.href='https://fcsenergia.com/'" target="_blank">Ver Proyecto</button>
+      </div>
+      <!-- Proyecto 3 -->
+      <div class="project-card">
+        <img src="imagen/ww.jpg" alt="Portfolio">
+        <h3>Winwood</h3>
+        <p>Sitio web creado para una empresa de aberturas , utilizando WordPress ,HTML,Css</p>
+        <button onclick="location.href='https://Winwood.com.ar'" target="_blank">Ver Proyecto</button>
+      </div>
+      <div class="project-card">
+        <img src="imagen/STI.jpg" alt="Portfolio">
+        <h3>Sti srl</h3>
+        <p>Sitio web creado para una empresa de servicios utilizando Html,Css,bootstrap</p>
+        <button onclick="location.href='https://spoma89.github.io/Servsti/index.html'" target="_blank">Ver Proyecto</button>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contáctame</h2>
+      <p>Estoy disponible para colaboraciones o proyectos. ¡No dudes en contactarme a través de los siguientes medios!</p>
+      <div class="contact-links">
+        <a href="mailto:sebastianromeropoma89@gmail.com" class="contact-button">📧 Enviar Correo</a>
+        <a href="https://www.linkedin.com/in/sebastian-romero-poma-653baabb/" target="_blank" class="contact-button">💼 LinkedIn</a>
+        <a href="https://github.com/Spoma89" target="_blank" class="contact-button">🐱 GitHub</a>
+        <a href="https://wa.me/3875393013" target="_blank" class="contact-button">📱 WhatsApp</a>
+      </div>
+      <p class="location">📍 Salta, Argentina</p>
+    </div>
+  </section>
+  <section id="cv">
+    <div class="cv-container">
+      <h2>Descarga mi CV</h2>
+      <p>Haz clic en el botón de abajo para descargar mi currículum.</p>
+      <a href="imagen/cvsebastianromeropoma.pdf" download class="cv-button">📄 Descargar CV</a>
+    </div>
+  </section>
+  
+  
+ 
+  <footer>
+    <div class="footer-container">
+      <div class="footer-text">
+        <p>Desarrollado por <strong>Sebastian Romero Poma</strong> &copy; 2025</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/Spoma89"" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sebastian-romero-poma-653baabb/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:sebastianromeropoma89@gmail.com" aria-label="Correo">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/3875393013" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+
+
+</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</html>
