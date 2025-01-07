@@ -13,32 +13,7 @@ body {
 
 
 /* Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    background-color:#1e3c72;
-    padding: 10px 20px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-    color: #a5a5f4;
-}
-
-.navbar .logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #00bcd4;
-}
+.
 
 /* Sección Inicio */
 .inicio {
@@ -572,12 +547,13 @@ button:hover{
     align-items: center;
     gap: 30px;
     max-width: 1200px;
-    margin: auto;
+    
 }
 
 .texto-presentacion {
     flex: 1 1 500px;
     text-align: left;
+    margin-right: 10px;
 }
 
 .texto-presentacion h1 {
@@ -596,6 +572,7 @@ button:hover{
     color: #555;
     margin-bottom: 20px;
     line-height: 1.6;
+    margin-right: 10px;
 }
 
 .boton-contacto {
@@ -758,4 +735,65 @@ button:hover{
     transform: scale(1.05); /* Efecto de agrandamiento */
   }
   
-  
+  /* Estilos generales para la Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #103d6d;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo del botón de menú (hamburguesa) */
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #133e6c;
+        padding: 10px;
+        border-radius: 8px;
+        width: 200px;
+    }
+
+    .navbar .menu a {
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+
+    /* Mostrar el botón de menú en pantallas pequeñas */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Mostrar el menú cuando se hace clic en el botón */
+    .menu.show {
+        display: flex;
+    }
+}
