@@ -8,7 +8,8 @@ body {
     font-family: "Roboto", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #fff;
+  background-color: #ffff
+  ;
 }
 
 
@@ -93,7 +94,7 @@ button:hover{
         h2 {
             text-align: center;
            margin: 0px  !important;
-            color: #271c5d;
+            color: #1e1e1e;
         }
 
         /* Contenedor principal de la línea de tiempo */
@@ -182,7 +183,7 @@ button:hover{
         h2 {
             text-align: center;
             margin: 20px 0;
-            color: #1e3c72;
+            color: #181919;
             
         }
 
@@ -199,7 +200,7 @@ button:hover{
             content: '';
             position: absolute;
             width: 4px;
-            background-color: #1e3c72;
+            background-color: #1a1a1b;
             top: 0;
             bottom: 0;
             left: 50%;
@@ -252,9 +253,9 @@ button:hover{
             position: absolute;
             width: 15px;
             height: 15px;
-    background-color:#1e3c72;
+    background-color:#121212;
 
-            border: 4px solid #3b63ae ;
+            border: 4px solid #353536 ;
             border-radius: 50%;
             top: 20px;
             left: calc(100% - 7px);
@@ -304,7 +305,7 @@ button:hover{
             .project-highlight img:hover {
                 max-width: 100%;
                 height: auto;
-                border: 5px solid #1f30ec;
+                border: 5px solid #212121;
                 border-radius: 4px;
                 padding: 5px;
             }
@@ -424,7 +425,7 @@ button:hover{
   .project-card h3 {
     font-size: 1.5rem;
     margin: 15px 0 10px;
-    color: #1e3c72;
+    color: #141415;
   }
   
   .project-card p {
@@ -439,7 +440,7 @@ button:hover{
     display: block;
     margin: 0 auto 15px;
     padding: 10px 15px;
-    background-color: #1e3c72;
+    background-color: #2e2e2f;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -450,7 +451,7 @@ button:hover{
   }
   
   .project-card button:hover {
-    background-color: #2a5298;
+    background-color: #262727;
   }
   
            
@@ -474,46 +475,7 @@ button:hover{
     gap: 30px;
 }
 
-.formulario-contacto, .info-contacto {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    width: 350px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
 
-.formulario-contacto label {
-    display: block;
-    font-size: 1rem;
-    margin: 10px 0 5px;
-    color: #555;
-}
-
-.formulario-contacto input, .formulario-contacto textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    font-size: 1rem;
-}
-
-.formulario-contacto button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.formulario-contacto button:hover {
-    background-color: #45a049;
-}
 
 .info-contacto h3 {
     font-size: 1.5rem;
@@ -584,7 +546,7 @@ button:hover{
 .boton-contacto {
     display: inline-block;
     padding: 10px 20px;
-    background-color:#1e3c72;
+    background-color:#1a1a1b;
    
     color: #fff;
     text-decoration: none;
@@ -594,7 +556,7 @@ button:hover{
 }
 
 .boton-contacto:hover {
-    background-color:#102244;
+    background-color:#242525;
     
 }
 
@@ -642,7 +604,7 @@ button:hover{
   .contact-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1e3c72;
+    background-color: #222222;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -651,7 +613,7 @@ button:hover{
   }
   
   .contact-button:hover {
-    background-color: #0056b3;
+    background-color: #3e3e3e;
   }
   
   .location {
@@ -692,13 +654,13 @@ button:hover{
   
   .social-icons a {
     text-decoration: none;
-    color: #111d55;
+    color: #0d0d0e;
     font-size: 1.5rem;
     transition: transform 0.3s ease, color 0.3s ease;
   }
   
   .social-icons a:hover {
-    color: #007BFF; /* Cambia el color al pasar el cursor */
+    color: #242424; /* Cambia el color al pasar el cursor */
     transform: scale(1.2); /* Efecto de zoom */
   }
   #cv {
@@ -727,7 +689,7 @@ button:hover{
   .cv-button {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #12355a;
+    background-color: #121212;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -737,7 +699,7 @@ button:hover{
   }
   
   .cv-button:hover {
-    background-color: #0056b3;
+    background-color: #393939;
     transform: scale(1.05); /* Efecto de agrandamiento */
   }
   
@@ -747,7 +709,7 @@ button:hover{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #103d6d;
+    background-color: #000000;
 }
 
 .navbar .logo {
@@ -761,11 +723,15 @@ button:hover{
 }
 
 .navbar .menu a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
 }
-
+.navbar .menu a:hover{
+   background-color:  rgb(49, 48, 48);
+    text-decoration: none;
+    font-size: 18px;
+}
 /* Estilo del botón de menú (hamburguesa) */
 .menu-icon {
     display: none;
